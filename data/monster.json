@@ -1,0 +1,203 @@
+{
+	"monsters": [
+	{
+		"id": "1",
+		"name": "The Original Green Monster Energy",
+		"desc": "Abre un lata de Monster Energy, la bebida más energética en el planeta. Es la combinación ideal de ingredientes y contiene la proporción adecuada para hacer el trabajo que sólo Monster puede. Monster tiene un sabor intenso pero suave. Atletas, músicos, anarquistas, estudiantes, guerreros de la carretera, rockeros, intelectuales, los modernos y a los motociclistas les encanta.",
+		"flavour": "Dulce y con un toque Monster!",
+		"category": "og",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/2cd0b187eb3ea28f5250d12fdb4f0988.png?mod=v1_fdbccdc73cd0c96253e6a1a754324fa3",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/800/9e2a664d1cff74f6d14d554352395810.png?mod=v1_2d0b5ce4d957fe51acf6bd5da0d9a2a5"
+	},
+	{
+		"id": "2",
+		"name": "Monster Energy Assault",
+		"desc": "En Monster no nos obsesionamos demasiado con la política y no estamos a favor de la Guerra, únicamente hemos vestido la lata Monster Assault con un traje de camuflaje porque nos parece que queda bien.",
+		"flavour": "Cola + Monster",
+		"category": "og",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/11/10/auto/400/87d1b1b9a01f32306c22eea10a80e92b.png?mod=v1_b88e5f64bf045795ffbc52879d8dcc66",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/11/10/auto/800/fbff1640e0a099095e04ed5fbf624374.png?mod=v1_af8420e63a50609ce87bb44974306d69"
+	},
+	{
+		"id": "3",
+		"name": "Monster Energy Nitro",
+		"desc": "Uno de los secretos mejor guardados en el mundo de las bebidas energéticas, ¡Monster Energy Nitro te dejará alucinado! Súper Dry está en infusionado con óxido nitroso creando una textura suave y cremosa que es mejor experimentar que explicar. Con una carga completa de la mezcla energética clásica de Monster, Monster Energy Nitro te dará el empujón que necesitas.",
+		"flavour": "Acido + Monster",
+		"category": "og",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/11/10/auto/400/79a442498ad2edb834024e232f60574b.png?mod=v1_bc4251d87251f8fb3a320e4820feedad",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/11/10/auto/800/663d842aa121fbb241268c756dac63b7.png?mod=v1_89f6fef3a7efb755c49a68b586a39930"
+	},
+	{
+		"id": "4",
+		"name": "Monster Energy Zero Sugar",
+		"desc": "Atrévete a probar una lata de la bebida más extrema del planeta, Monster Energy Zero Sugar. Nos fuimos al laboratorio y le hicimos una cirugía mayor al Monster, le cortamos los carbohidratos y calorías, trasplantamos toda la fuerza y dejamos el sabor. Monster Energy Zero Sugar te sigue dando el doble de potencia que cualquier otra bebida, pero tiene sólo una fracción de las calorías.",
+		"flavour": "Dulce con un toque cítrico",
+		"category": "og",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/07/12/auto/400/43f3c0aa8942b771c2579dd46934d1fb.png?mod=v1_19d2dbfaa18244f8bd541b1e2b4b2de3",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/07/12/auto/800/dd2b7db3fef862401ca2a6cda8046c4a.png?mod=v1_1e3a2b9e1e5d927ef558af73b355d25f"
+	},
+	{
+		"id": "5",
+		"name": "Monster Mule",
+		"desc": "Una bebida sin azúcar, que combina el sabor picante y dulce del jengibre, respaldado con toques de lima cítrica, y contiene toda la energía proporcionada por la fórmula Monster Energy, con vitaminas del grupo B y 160 mg de cafeína. Con una estética Far West, Monster Mule se inspira en la esencia de los cowboys, rebeldes originales que tienen sus propias reglas, y que dan rienda suelta a su espíritu salvaje con altas dosis de energía.",
+		"flavour": "Dulce y picante",
+		"category": "og",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/03/22/auto/400/684974b49bc7a942967f09ec86e4b109.png?mod=v1_27836236e1e2596867e75812929f3eb4",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/03/22/auto/800/d6c8809f3789035aee09202e59c62ba2.png?mod=v1_a5329a6ed90b1fd8d92b615d01afaf50"
+	},
+	{
+		"id": "6",
+		"name": "Zero Ultra Paradise",
+		"desc": "¿Dónde está el paraíso? ¿Un chalet en las laderas, un rancho junto al arroyo o un ático en la ciudad? ¿Qué tal una isla privada con una playa de arena blanca, agua turquesa y una suave brisa tropical? Monster Ultra Paradise: Sabor puro, fresco e isleño. Relájate y disfruta. ¡El paraíso está donde lo quieras encontrar!",
+		"flavour": "Kiwi y lima con un toque de Pepino",
+		"category": "ultra",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/07/15/auto/400/951762ed4ebb3c2abb073d79cff010ec.png?mod=v1_2a8f00fcb9abb731a1fa9e20ade1e888",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/07/15/auto/800/02a664017237fd40361bb0d8c7daf2f9.png?mod=v1_087dae82c918a34a7b40e8544b038c60"
+	},
+	{
+		"id": "7",
+		"name": "Zero Ultra Watermelon",
+		"desc": "Bajo el cielo nocturno, iluminado por fuegos artificiales, tienes a tu crush al lado. Con buena música y mejores amigos, es el mejor verano de todos. Ultra Watermelon es el verano en una lata, para que puedas disfrutarlo en cualquier momento. Zero azúcar, sabor refrescante, fácil de beber y con la explosiva mezcla de energía Monster para iluminar esas calurosas noches de verano.",
+		"flavour": "Sandía refrescante",
+		"category": "ultra",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2022/04/13/auto/400/3677fa72700f037edb2921790de3466a.png?mod=v1_0c7f759aff400ef91b505ad04282be8b",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2022/04/13/auto/800/bc1560b9006c7947ef7bb09a3d790dd4.png?mod=v1_56129e3ff5076a4fd96e274c4cf69c14"
+	},
+	{
+		"id": "8",
+		"name": "Monster Energy Ultra Fiesta Mango",
+		"desc": "Ya dormiremos luego, ¡esta noche nos vamos de fiesta como si no hubiera un mañana! Con Ultra Fiesta Mango celebramos las noches que se convierten en mañanas y los amigos que son nuestra familia. Ultra Fiesta Mango Zero Azúcar combina el sabor del zumo de mango que tanto nos gusta, con una carga completa de nuestra energía Monster.",
+		"flavour": "Mango",
+		"category": "ultra",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/07/09/auto/400/ab4655706c2ba9fa276b5163beb58452.png?mod=v1_66474bf1c40d97501a0f4cb243ad6d21",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/07/09/auto/800/356a7d8d1e0aab63d1322b882779e4eb.png?mod=v1_66474bf1c40d97501a0f4cb243ad6d21"
+	},
+	{
+		"id": "9",
+		"name": "Zero Ultra",
+		"desc": "Algunas personas son imposibles de complacer. En cuanto consiguen lo que quieren van por nuevos retos. Los atletas de Monster Energy y las Monster Girls no son diferentes... y han estado pidiendo una nueva bebida. Un poco menos dulce, más ligera de sabor, cero calorías, pero con una carga completa del auténtico poder de Monster Energy. Los chicos en el laboratorio pasaron noches en vela para volver con una novedad que los impactó a todos, Monster Energy® Ultra.",
+		"flavour": "Refrescante y cítrico",
+		"category": "ultra",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/088bf42d5d6645f223553dc347bf2841.png?mod=v1_5ca16e6d0ac66d2db8d2afd0b3d9976f",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2019/02/26/auto/800/94e98ec5de357f82f1a4fbbe6d8644c0.png?mod=v1_c311e45333b510cd377949cd35b3934d"
+	},
+	{
+		"id": "10",
+		"name": "Zero Ultra Red",
+		"desc": "El cambio puede ser bueno cuando haces lo mejor que puedes, como cuando eras adolescente y trabajabas en esos veranos interminables, donde lo dabas todo y el sueldo solo te daba para llegar a las fiestas y ser parte de todas las escapadas a la playa antes de que llegará otra vez el invierno. Ultra Red logra combinar la potencia energética de Monster, pero con un toque ligero y fresco. En honor a todos esos veranos donde vivíamos el momento hasta la puesta de sol.",
+		"flavour": "Crujiente y refrescante mix de frutos rojos",
+		"category": "ultra",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/036de980ea0583c59529b1de9848f1e6.png?mod=v1_0a7be7c476c5e15b73a1ba38dfad09d5",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2019/02/19/auto/800/6f218e32bc51bb2a76ba4da6d29865a4.png?mod=v1_cb144216ea54680e12d5fb8e47d912de"
+	},
+	{
+		"id": "11",
+		"name": "Juiced Monster Pacific Punch",
+		"desc": "Un mix de zumos con energía, inspirado en sailor Jerry y la cultura de tattoo de EEUU, contando historias de alta mar, tiburones, sirenas y marineros.",
+		"flavour": "Ponche de frutas clásico",
+		"category": "juiced",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/07/15/auto/400/d42cca86aaf9a9e7a5682af50c4d28ab.png?mod=v1_d104e27a3f398f95e2594e39448b8a75",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/800/b8192d72f556aecedd1e64c52d4a92ee.png?mod=v1_e7f0c03082bc6b0984a7fb326df2f6cf"
+	},
+	{
+		"id": "12",
+		"name": "Juiced Monster Khaotic",
+		"desc": "De vuelta al 05, el Juice Monster original revolucionó al combinar un zumo real de gran sabor con la funcionalidad y la actitud de la bebida energética. Ahora, más de una década después, decidimos que era hora de hacer un pequeño cambio de imagen del clásico. Aligeramos el sabor y ajustamos la mezcla de zumo para crear un sabor que es mejor probar que describir. Por supuesto, nuestro ADN de Monster Energy permanece sin cambios. Para nuestro nuevo trabajo de pintura, llamamos a nuestro viejo amigo y legendario artista callejero Risk. ¡Su estilo icónico de la costa oeste y su presentación vibrante capturan perfectamente el espíritu de nuestro Khaos original renacido como Khaotic!",
+		"flavour": "Naranja Cítrica",
+		"category": "juiced",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2022/04/13/auto/400/ea2f01c0c0ae0b5b98b45e355921981f.png?mod=v1_a12fcced381b477109fe7e60001b4ea2",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2022/04/13/auto/800/f6b50a469404e57c4dcae3b70c74868d.png?mod=v1_a12fcced381b477109fe7e60001b4ea2"
+	},
+	{
+		"id": "13",
+		"name": "Juiced Monster Mango Loco",
+		"desc": "En la víspera del 31 de octubre de cada año, amigos y familiares se reúnen para celebrar el Día de los Muertos. Las maravillas, el misticismo y los recuerdos combinados con comida y bebida atraen los sonidos de los difuntos para unirse a la fiesta. Mango Loco es una mezcla celestial de jugos exóticos que seguramente atraerán al espíritu más rebelde. ",
+		"flavour": "Mango jugoso",
+		"category": "juiced",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/983494c077017bfa838aec603760595b.png?mod=v1_69455f494c2ce1b5422f8907c6ff96c0",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2019/09/17/auto/800/6826577368833ec6a8dd4e3f79a2239e.png?mod=v1_555fd7dde7e55e4d3a636409f91aa486"
+	},
+	{
+		"id": "14",
+		"name": "Juiced Monster Ripper",
+		"desc": "El  olor que nos sedujo a la competición Monster Energy Pipeline Pro Surf en el NorthShore de Oahu, fue nuestra inspiración para el nuevo Monster Ripper. Comenzamos con una combinación explosiva de zumos tropicales, le agregamos el sabor del Monster original y luego fue fortalecido con una carga completa de nuestra potente combinación Monster Energy. Banzai! Monster Juiced Rippper…otro híbrido radical del Zumo Monster con un sabor explosivo y…la energía que necesitas!",
+		"flavour": "Jugos tropicales",
+		"category": "juiced",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/0ad3c7383738a84fc18d57b6e3833f63.png?mod=v1_e9b392a23e4b0016bc097e058ae71242",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/08/16/auto/800/ad7e8b3e2ddda0ea0386084e677fd983.png?mod=v1_0e744224916d36dd6f5e415ea46373c1"
+	},
+	{
+		"id": "15",
+		"name": "Monster Monarch",
+		"desc": "Existe la teoría de que algo tan pequeño e intrascendente como el batir de las alas de una mariposa puede ser el desencadenante de un huracán. Monster Monarch, llamado así por la humilde mariposa, tiene un sutil y ligero sabor con toques de melocotón y nectarina. Podrías decir que es delicado y no demasiado abrumador, pero prepárate para experimentar tu propio “Efecto Mariposa”, ya que Monarch tiene una carga completa de la legendaria mezcla de Energía de Monster Energy.",
+		"flavour": "Dulce y Afrutado",
+		"category": "juiced",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/07/09/auto/400/70a0897dcd6e3a88e37b8380504e37e0.png?mod=v1_8c546efe4b538ba5c01803e3bd8e048b",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/07/09/auto/800/088c1ca3d9f7b7ad4ee410887eb3ef57.png?mod=v1_ff1565b0eaf624e23777ae3147a49417"
+	},
+	{
+		"id": "16",
+		"name": "Juiced Monster MIXXD Punch",
+		"desc": "Siempre aparece uno que le gusta mezclar las cosas en la fiesta. El DJ mezclando diferentes tipos de música o alguien mezclando el ponche para que comience la fiesta, de verdad. En Monster también nos gusta agitar un poco las cosas e inevitablemente así fue como esta gran mezcla cobró vida. Monster MIXXD, un  golpe tropical con una carga completa de nuestra mezcla Monster Energy.",
+		"flavour": "Dulce tropical",
+		"category": "juiced",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2018/06/04/auto/400/a4bcd9c5ba43b8dc834169667a1ef1aa.png?mod=v1_7d368d943735ce692d92b0b6c6762ad3",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2018/06/04/auto/800/e5136cc75201f19daecaaf6066091f28.png?mod=v1_469258f655b1221c5bcf7cafb3ac94a8"
+	},
+	{
+		"id": "17",
+		"name": "Monster Rehab Iced Tea & Lemonade",
+		"desc": "Mientras disfrutábamos de una fiesta en la piscina de Rehab en Las Vegas, pasándola genial tras un fin de semana de juerga, estuvimos pensando en un remedio para el resacón que no nos dejaba seguir nuestra fiesta. Lo que nos hacía falta: RE-frescarnos RE-hidratarnos y RE-vivir! Necesitamos una bebida nueva, una que pudiera hacerlo todo: un triplete que quite la sed, te hidrate como una bebida para deportistas y que te ponga en marcha después de una larga noche… ¡BANG, ASI LLEGO REHAB! RE-FRESCA, RE-HIDRATA, RE-VIVE o en otras palabras, rehabilítate con una mezcla fantástica de té, limonada sin gas, electrolitos, una increíble combinación energética para ponerte las pilas.",
+		"flavour": "Té y Limonada Elaborados",
+		"category": "rehab",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/658966ad71d06d480d8a0f3649d8b466.png?mod=v1_20b7d35b253e6c5e9cad273b0ca7d4bf",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2019/02/19/auto/800/c976860154186aa82d2c6badc7d72e55.png?mod=v1_22d1c2eb4d29db00b953015eeea498db"
+	},
+	{
+		"id": "18",
+		"name": "Espresso and Milk Monster",
+		"desc": "Los europeos son famosos por los coches rápidos, la moda y el café que se sirve largo, corto, caliente, frío, de mil maneras. Así que viajamos por el continente, aprendimos de los mejores baristas y creamos nuestro: Espresso Monster. El Espresso Monster: 3 tazas de espresso, leche helada y la mezcla de Espresso Energy de Monster.",
+		"flavour": "Espresso",
+		"category": "espresso",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/aefadd26d358e762720f33687b35fc16.png?mod=v1_cdd240e617ca468aad0aa4e3efcc6aab",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2019/04/02/auto/800/907739247e7e8eab5890dc3915a4101a.png?mod=v1_3f5e2b1bcb3817972508a425790eda96"
+	},
+	{
+		"id": "19",
+		"name": "Vanilla Espresso Monster",
+		"desc": "Los europeos son famosos por los coches rápidos, la moda y el café que se sirve largo, corto, caliente, frío, de infinitas maneras. Así que viajamos por el continente, aprendimos de los mejores baristas y creamos nuestro café, Espresso Monster. Nos gustó tanto la idea que viajamos a Europa para crear Espresso Monster. Tres tazas de espresso con leche europea y mejorados con Espresso Energy Blend de Monster.",
+		"flavour": "Espresso de Vainilla",
+		"category": "espresso",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/12/02/auto/400/0ce2b6c3704e0f727968c7431e718a14.png?mod=v1_1dd1687bb123bf8bfc07972bff6a3ffd",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2019/04/02/auto/800/93a0a11b4fe7daef99399094bdfa93fb.png?mod=v1_1a862548d6b062668eddbbb8f14e5042"
+	},
+	{
+		"id": "20",
+		"name": "Monster HydroSport Hang Time",
+		"desc": "El talento te lleva muy lejos, pero el compromiso te diferencia del resto. Es el sello distintivo, la base de cualquier gran equipo. HydroSport no tiene gas para que sea más fácil de beber, con un sabor refrescante, y con la inigualable mezcla energética de Monster.",
+		"flavour": "Un refrescante sabor a lichi tropical",
+		"category": "hydrosport",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/03/11/auto/400/cfc7d4f57834d6a27cf2108c716a330b.png?mod=v1_53a6fa21ea54b027046b7f758fea49e2",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/05/08/auto/800/3e5539ba1d1b8162a75a15a229965149.png?mod=v1_2f3cd122cccc4f4648639cbd3cb4ab4a"
+	},
+	{
+		"id": "21",
+		"name": "Monster HydroSport Charge",
+		"desc": "El talento te lleva muy lejos, pero el compromiso te diferencia del resto. Es el sello distintivo, la base de cualquier gran equipo. HydroSport no tiene gas para que sea más fácil de beber, con un sabor refrescante, y con la inigualable mezcla energética de Monster.",
+		"flavour": "Ligero y tropical sabor a naranja y piña.",
+		"category": "hydrosport",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/03/11/auto/400/4e1c5ac3d96cbd703dca44bf5d621d12.png?mod=v1_4cad61d32e7c9ac60c4afff3295dc6c7",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/05/08/auto/800/2ddf8896ee156793faf8d8bd7c47328f.png?mod=v1_020312df9db257fb58c026435c197c0d"
+	},
+	{
+		"id": "22",
+		"name": "Monster HydroSport Striker",
+		"desc": "El talento te lleva muy lejos, pero el compromiso te diferencia del resto. Es el sello distintivo, la base de cualquier gran equipo. HydroSport no tiene gas para que sea más fácil de beber, con un sabor refrescante, y con la inigualable mezcla energética de Monster.",
+		"flavour": "Un sabor refrescante de lima-limón",
+		"category": "hydrosport",
+		"imglogo": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2021/03/11/auto/400/96ea92a94d4b4b053ecf43b8340bdf58.png?mod=v1_0fdb708cafdadf64e5184969efba6d65",
+		"imgcan": "https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2020/05/08/auto/800/00bd03eedaea9c9a9000e2bcccd8c266.png?mod=v1_c03fe70ece07b573619d7bee08aa0f35"
+	}
+	]
+
+}

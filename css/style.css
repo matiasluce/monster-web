@@ -1,0 +1,614 @@
+:root{
+    --font1: 'Acme', sans-serif;
+    --font2: 'Bebas Neue', cursive;
+    --font3: 'Josefin Sans', sans-serif;
+    --font4: 'Koulen', cursive;
+    --font5: 'Poppins', sans-serif;
+    --green: #b7d237;
+    --black: #040404;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black);
+}
+
+
+/*MENU HAMBURGUESA CSS*/
+
+@keyframes menu-anim{
+    0%{
+        top: 0;
+        left: 100%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+.menu-ham{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    animation: menu-anim .5s forwards;
+}
+
+.menu-off{
+    display: none;
+}
+
+.fa-xmark{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--green);
+    font-size: 10vw;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.fa-xmark:hover{
+    transform: rotate(90deg);
+}
+
+.menu-ham ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-ham ul li{
+    position: relative;
+    list-style: none;
+}
+
+.menu-ham ul li a{
+    position: relative;
+    font-size: 12vw;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--clr);
+    -webkit-text-stroke: 1px rgba(255,255,255,0.5);
+    filter: drop-shadow(0 0 25px var(--clr));
+}
+
+
+
+/* NAV STYLE */
+nav {
+    display: flex;
+    background-color: var(--black);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+nav i {
+    filter: invert(1);
+    font-size: 25px;
+    color: white;
+}
+
+.hmb-icon {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+}
+
+.hero-container {
+    width: 100%;
+    height: 50vh;
+    
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.hero-container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: top center;
+    z-index: -1;
+}
+
+.hero-container p{
+    color: white;
+    font-family: var(--font4);
+    font-size: 5vw;
+}
+
+.hero-container img{
+    width: 20%;
+}
+
+/* MAIN CSS */
+main {
+    width: 100%;
+}
+
+.sabores {
+    display: grid;
+    grid-template-rows: min-content 2fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "texto"
+                         "img1"
+                         "img2";
+}
+
+.sabores h2 {
+    grid-area: texto;
+    text-align: center;
+    color: white;
+    font-family: var(--font2);
+    font-size: 7vw;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.sabores img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.doc{
+    grid-area: img1;
+}
+
+.green{
+    grid-area: img2;
+}
+
+
+.sucursales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr 1fr min-content min-content;
+    grid-template-areas: "sucursales sucursales"
+                         "oficina1 oficina1"
+                         "oficina2 oficina2"
+                         "usa usa-map"
+                         "uk-map uk";
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.oficina1,.oficina2{
+    width: 100%;
+}
+
+.oficina1{
+    grid-area: oficina1;
+}
+
+.oficina2{
+    grid-area: oficina2;
+}
+
+.sucursales iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.sucursales h3{
+    grid-area: sucursales;
+    font-family: var(--font4);
+    font-size: 7vw;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.usa-map{
+    grid-area: usa-map;
+}
+
+.uk-map{
+    grid-area: uk-map;
+}
+
+.usa{
+    grid-area: usa;
+    font-family: var(--font2);
+    font-size: 6vw;
+    letter-spacing: 2px;
+}
+
+.uk{
+    grid-area: uk;
+    font-family: var(--font2);
+    font-size: 6vw;
+    letter-spacing: 2px;
+}
+
+footer{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "fimg flinks fsocial";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--black);
+    padding: 10px;
+}
+
+footer img{
+    grid-area: fimg;
+    width: 70%;
+}
+
+.footer-links{
+    grid-area: flinks;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font2);
+    font-size: 3.5vw;
+}
+
+.social-media{
+    grid-area: fsocial;
+}
+
+.social-media a{
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+/*CONTACTO STYLE*/
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    padding: 50px 0;
+    width: 100%;
+}
+
+.form-boos{
+    width: 80%;
+}
+
+.form-boos label{
+    color: white;
+    font-family: var(--font4);
+    letter-spacing: 1px;
+    font-size: 2.5vw;
+}
+
+.non{
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.bad{
+    border: 2px solid red !important; /*USO EL IMPORTANT SOLO PARA PISAR LOS ESTILOS DE BOOTSTRAP*/
+}
+
+.good{
+    border: 2px solid var(--green) !important; /*USO EL IMPORTANT SOLO PARA PISAR LOS ESTILOS DE BOOTSTRAP*/
+}
+
+
+
+/* SABORES CSS*/
+
+/* VUE CONTAINER CSS*/
+
+.container-vue{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container-vue .card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .5fr 2fr;
+    grid-template-areas: "logo-img"
+                         "m-name"
+                         "m-desc";
+    width: 80%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.lata-img{
+    display: none;
+}
+
+.container-vue .monster-name{
+    grid-area: m-name;
+    font-family: var(--font2);
+    font-size: 5vw;
+    color: var(--green);
+    letter-spacing: 2px;
+}
+
+.container-vue .monster-desc{
+    grid-area: m-desc;
+    font-family: var(--font3);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.container-vue .logo-img{
+    grid-area: logo-img;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-vue .lata-img{
+    grid-area: lata-img;
+    width: 60%;
+    margin: auto 0;
+}
+
+
+
+/* TABLET STYLE */
+
+@media(min-width: 480px){
+    .sabores {
+        grid-template-rows: min-content 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "texto texto"
+                             "img1 img2";
+    }
+    .sabores .doc{
+        object-position: center;
+    }
+
+    .sabores .green{
+        object-position: left;
+    }
+
+
+    .sucursales{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr 1fr 1fr 1fr;
+        grid-template-areas: "sucursales sucursales"
+                             "oficina1 usa-map"
+                             "oficina1 usa"
+                             "uk oficina2"
+                             "uk-map oficina2";
+    }
+
+    .sucursales img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sucursales iframe{
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .form-boos{
+        width: 60%;
+    }
+
+    .container-vue{
+        display: flex;
+        width: 100%;
+        align-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .container-vue .card{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr .5fr 2fr;
+        grid-template-areas: "lata-img logo-img"
+                             "lata-img m-name"
+                             "lata-img m-desc";
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    .container-vue .monster-name{
+        font-size: 4vw;
+        padding: 10px 0;
+    }
+    
+    .container-vue .monster-desc{
+        font-size: 3.5vw;
+    }
+
+    .lata-img{
+        display: block;
+    }
+    
+    .container-vue .logo-img{
+        grid-area: logo-img;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .container-vue .lata-img{
+        grid-area: lata-img;
+        width: 60%;
+        margin: auto 0;
+    }
+}
+
+
+/* DESKTOP STYLE */
+
+@media(min-width: 768px){
+    .nav-links {
+        display: initial;
+    }
+
+    .hmb-icon{
+        display: none;
+    }
+
+    .nav-links ul{
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-links li{
+        margin: 1vw;
+    }
+
+    .nav-links a{
+        color: white;
+        text-decoration: none;
+        font-family: var(--font2);
+        font-size: 3vw;
+        letter-spacing: 2px;
+    }
+
+    .nav-links a:hover{
+        color: var(--green);
+    }
+
+    .hero-container:hover img{
+        transform: rotate(2deg);
+    }
+    
+    .hero-container:hover p{
+        text-shadow: 1px 2px 10px var(--green);
+        padding-top: 5px;
+    }
+
+    .sabores{
+        padding: 0 5vw;
+    }
+
+    .sabores img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sabores h2{
+        font-size: 5vw;
+    }
+
+    .sucursales{
+        max-height: 800px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content .5fr 1fr 1fr 1fr 1fr .5fr;
+        grid-template-areas: "sucursales sucursales"
+                             "usa usa-map"
+                             "oficina1 usa-map"
+                             "oficina1 usa-map"
+                             "uk-map oficina2"
+                             "uk-map oficina2"
+                             "uk-map uk";
+        padding: 50px 5vw;
+    }
+
+    .sucursales iframe{
+        width: 100%;
+    }
+
+    .sucursales h3{
+        font-size: 5vw;
+    }
+
+    .sucursales .location{
+        font-size: 4vw;
+    }
+
+    .footer-links a{
+        font-size: 2vw;
+    }
+
+    .footer-links a:hover{
+        color: var(--green);
+    }
+
+    footer img{
+        grid-area: fimg;
+        width: auto;
+    }
+
+    .social-media i{
+        font-size: 30px;
+        margin: 10px;
+        transition: transform .3s;
+    }
+
+    .social-media i:hover{
+        color: var(--green);
+        transform: scale(1.2);
+    }
+
+    .form-boos{
+        width: 45%;
+    }
+
+    .container-vue .monster-name{
+        font-size: 2.5vw;
+    }
+    
+    .container-vue .monster-desc{
+        font-size: 2vw;
+    }
+
+    .lata-img{
+        display: block;
+    }
+    
+    .container-vue .logo-img{
+        width: 40%;
+    }
+    
+    .container-vue .lata-img{
+        grid-area: lata-img;
+        width: 40%;
+        margin: auto 0;
+    }
+}

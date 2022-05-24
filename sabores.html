@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabores</title>
+    <link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c5dc02393b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Josefin+Sans&family=Koulen&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menu-ham menu-off"></div>
+    <header id="header"></header>
+    <div id="app">
+      <div class="container-vue">
+        <div class="card" v-for="monster in datos">
+          <p class="monster-name">{{monster.name}}</p>
+          <img :src="monster.imglogo" :alt="monster.name" class="logo-img" />
+          <img :src="monster.imgcan" :alt="monster.name" class="lata-img" />
+          <p class="monster-desc">{{monster.desc}}</p>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
