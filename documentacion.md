@@ -31,9 +31,9 @@ Fuentes usadas (importadas de Google Fonts):
 [Media Queries - Breakpoints]
 Para implementar los distintos breakpoints usé el método "mobile first", el css principal es para el estilo de Mobile y luego 2 breakpoints los cuales corresponden a Tablet y Desktop, así resultando 3 vistas diferentes que se adaptan según el dispositivo.
 
-**  Mobile: < 480px  **
-**  Tablet: < 768px  **
-**  Desktop: > 768px   **
+- Mobile: < 480px
+- Tablet: < 768px
+- Desktop: > 768px
 
 Animaciones usadas:
 - Transición de entrada del menú hamburguesa. keyframe: menu-anim
