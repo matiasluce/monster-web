@@ -32,6 +32,12 @@ Medidas:
 Principalmente para las medidas usé px, vw, vh y algunas medidas están en auto para no limitar los elementos y que ocupen lo que sea necesario.
 En algunas etiquetas p usé como font size "vw" que según el viewport va incrementando de tamaño el texto también lo hace.
 
+Grid:
+Usé grid para el apartado de sucursales en el home, para el footer y en el contenedor de Vue donde se muestran las distintas bebidas.
+
+Flexbox:
+Lo usé en la mayor parte del sitio, como en el header, en donde se presentan los nuevos sabores, en los botones del contenedor de Vue para elegir las bebidas a mostrar.
+
 [Media Queries - Breakpoints]
 
 Para implementar los distintos breakpoints usé el método "mobile first", el css principal es para el estilo de Mobile y luego 2 breakpoints los cuales corresponden a Tablet y Desktop, así resultando 3 vistas diferentes que se adaptan según el dispositivo.
