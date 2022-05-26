@@ -31,7 +31,7 @@ Fuentes usadas (importadas de Google Fonts):
 
 Medidas:
 Principalmente para las medidas usé px, vw, vh y algunas medidas están en auto para no limitar los elementos y que ocupen lo que sea necesario.
-En algunas etiquetas <p> usé como font size "vw" que según el viewport va incrementando de tamaño el texto también lo hace.
+En algunas etiquetas p usé como font size "vw" que según el viewport va incrementando de tamaño el texto también lo hace.
 
 [Media Queries - Breakpoints]
 Para implementar los distintos breakpoints usé el método "mobile first", el css principal es para el estilo de Mobile y luego 2 breakpoints los cuales corresponden a Tablet y Desktop, así resultando 3 vistas diferentes que se adaptan según el dispositivo.
