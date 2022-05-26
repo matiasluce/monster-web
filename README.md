@@ -38,7 +38,7 @@ Para implementar los distintos breakpoints usé el método "mobile first", el cs
 
 - Mobile: < 480px
 - Tablet: < 768px
-- Desktop: > 768px
+- Desktop: > 800px
 
 Animaciones usadas:
 - Transición de entrada del menú hamburguesa. keyframe: menu-anim
