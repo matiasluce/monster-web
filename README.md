@@ -14,7 +14,6 @@ archivo por lo cúal me dispuse a crear mi propio archivo json con las siguiente
 - Sabor
 
 
-
 [ESTILOS DE LA WEB]
 
 Colores principales usados:
@@ -34,6 +33,7 @@ Principalmente para las medidas usé px, vw, vh y algunas medidas están en auto
 En algunas etiquetas p usé como font size "vw" que según el viewport va incrementando de tamaño el texto también lo hace.
 
 [Media Queries - Breakpoints]
+
 Para implementar los distintos breakpoints usé el método "mobile first", el css principal es para el estilo de Mobile y luego 2 breakpoints los cuales corresponden a Tablet y Desktop, así resultando 3 vistas diferentes que se adaptan según el dispositivo.
 
 - Mobile: < 480px
@@ -48,6 +48,7 @@ Animaciones usadas:
 - En la web de contacto al estar focus en un input la caja incrementa su tamaño sutilmente hasta que se quite el focus.
 
 [BOOTSTRAP]
+
 Usado en la página de contacto para el formulario.
 En los estilos del mismo tuve que usar 2 veces el !important para pisar el estilo de bootstrap porque de otra manera era imposible cambiarle el estilo.
 
@@ -62,6 +63,14 @@ Vue Js:
 - Para hacer el fetch del json y extraer la información.
 - Mostrar en su respectivo contenedor las distintas bebidas extraídas del json.
 - Para la interacción de elegir la categoría de bebida y que se muestren las mismas.
+
+[VALIDACION DEL FORMULARIO]
+
+Los aspectos que tuve en cuenta para validar el formulario son:
+- El nombre tiene que tener más de 4 caracteres.
+- El correo debe contener @ y tener más de 10 caracteres.
+- El mensaje debe tener más de 10 caracteres.
+Cuando algún campo no cumple los requisitos, el mismo muestra un borde rojo y debajo aparece un mensaje con la pauta a cumplir.
 
 
 
