@@ -37,7 +37,7 @@ En algunas etiquetas p usé como font size "vw" que según el viewport va increm
 Para implementar los distintos breakpoints usé el método "mobile first", el css principal es para el estilo de Mobile y luego 2 breakpoints los cuales corresponden a Tablet y Desktop, así resultando 3 vistas diferentes que se adaptan según el dispositivo.
 
 - Mobile: < 480px
-- Tablet: < 768px
+- Tablet: < 800px
 - Desktop: > 800px
 
 Animaciones usadas:
