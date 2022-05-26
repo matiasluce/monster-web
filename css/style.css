@@ -538,7 +538,7 @@ footer img{
 
 /* DESKTOP STYLE */
 
-@media(min-width: 768px){
+@media(min-width: 800px){
     .nav-links {
         display: initial;
     }
@@ -596,7 +596,7 @@ footer img{
     }
 
     .sucursales{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(7,auto);
         grid-template-areas: "sucursales sucursales"
                              "usa usa-map"
@@ -606,6 +606,10 @@ footer img{
                              "uk-map oficina2"
                              "uk-map uk";
         padding: 50px 5vw;
+    }
+
+    .sucursales img{
+        width: 100%;
     }
 
     .sucursales iframe{
