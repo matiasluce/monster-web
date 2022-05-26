@@ -282,7 +282,7 @@ footer img{
     text-decoration: none;
     color: white;
     font-family: var(--font2);
-    font-size: 3.5vw;
+    font-size: 20px;
 }
 
 .social-media{
@@ -340,24 +340,51 @@ footer img{
 
 /* VUE CONTAINER CSS*/
 
+#app .tipos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--green);
+    padding: 20px 0;
+}
+
+.tipos img{
+    width: 60%;
+    margin: 10px 0;
+    border: 2px solid black;
+    background-color: rgb(54, 54, 54);
+    padding: 5px;
+    border-radius: 10px;
+}
+
 .container-vue{
     display: flex;
     width: 100%;
     align-content: center;
     flex-direction: column;
     color: white;
+    gap: 30px;
 }
 
 .container-vue .card{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr .5fr 2fr;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4,auto);
     grid-template-areas: "logo-img"
                          "m-name"
-                         "m-desc";
+                         "m-desc"
+                         "sabor";
     width: 80%;
     text-align: left;
     margin: 20px auto;
+    justify-items: center;
+}
+
+.container-vue .monster-sabor{
+    grid-area: sabor;
+    font-family: var(--font2);
+    padding: 10px 0;
+    font-size: 20px;
 }
 
 .lata-img{
@@ -367,7 +394,7 @@ footer img{
 .container-vue .monster-name{
     grid-area: m-name;
     font-family: var(--font2);
-    font-size: 5vw;
+    font-size: 25px;
     color: var(--green);
     letter-spacing: 2px;
 }
@@ -436,6 +463,18 @@ footer img{
         width: 60%;
     }
 
+    #app .tipos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .tipos img{
+        width: 200px;
+        height: 120px;
+    }
+
     .container-vue{
         display: flex;
         width: 100%;
@@ -446,13 +485,18 @@ footer img{
     
     .container-vue .card{
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr .5fr 2fr;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(4,auto);
         grid-template-areas: "lata-img logo-img"
                              "lata-img m-name"
-                             "lata-img m-desc";
+                             "lata-img m-desc"
+                             "lata-img sabor";
         width: 90%;
         margin: 20px auto;
+    }
+
+    .container-vue .monster-sabor{
+        font-size: 25px;
     }
     
     .container-vue .monster-name{
@@ -477,7 +521,11 @@ footer img{
     .container-vue .lata-img{
         grid-area: lata-img;
         width: 60%;
-        margin: auto 0;
+        margin: auto auto;
+    }
+
+    .footer-links a{
+        font-size: 25px;
     }
 }
 
@@ -563,7 +611,7 @@ footer img{
     }
 
     .footer-links a{
-        font-size: 2vw;
+        font-size: 30px;
     }
 
     .footer-links a:hover{
@@ -591,11 +639,11 @@ footer img{
     }
 
     .container-vue .monster-name{
-        font-size: 2.5vw;
+        font-size: 35px;
     }
     
     .container-vue .monster-desc{
-        font-size: 2vw;
+        font-size: 22px;
     }
 
     .lata-img{
@@ -610,5 +658,34 @@ footer img{
         grid-area: lata-img;
         width: 40%;
         margin: auto 0;
+    }
+
+    .tipos img{
+        cursor: pointer;
+    }
+
+    .tipos img:hover{
+        box-shadow: 1px 3px 25px black;
+    }
+
+    .activo{
+        box-shadow: 1px 3px 25px black;
+    }
+
+    .tipos img:hover img{
+        transform: scale(1.1);
+    }
+
+    .form-boos button:hover{
+        background-color: var(--green);
+        border-color: var(--green);
+    }
+
+    #nombre,#email,#mensaje{
+        transition: transform .3s;
+    }
+
+    #nombre:focus,#email:focus,#mensaje:focus {
+        transform: scale(1.05);
     }
 }

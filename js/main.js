@@ -77,6 +77,7 @@ function validarForm(){
   let errorNombre = document.querySelector('.errN');
   let errorEmail = document.querySelector('.errE');
 
+  /* VALIDACIÓN QUE EL NOMBRE TENGA MÁS DE 4 CARACTERES */
   if(nombre.value.length < 4){
     errorNombre.classList.add('visible');
     nombre.classList.add("bad");
@@ -86,6 +87,8 @@ function validarForm(){
     nombre.classList.remove('bad');
     nombre.classList.add('good');
   }
+
+  /* VALIDACIÓN QUE EL CORREO CONTENGA @ Y QUE TENGA MÁS DE 10 CARACTERES */
 
   if(!(email.value).includes('@')){
     email.classList.add('bad');
@@ -99,6 +102,8 @@ function validarForm(){
     }
   }
 
+  /* VALIDACIÓN QUE EL MENSAJE TENGA MÁS DE 10 CARACTERES */
+
   if(mensaje.value.length < 10){
     errorMsj.classList.add('visible');
     mensaje.classList.add('bad');
@@ -110,6 +115,8 @@ function validarForm(){
   }
 }
 
+/* FUNCIONES PARA ABRIR Y CERRAR EL MENÚ HAMBURGUESA */
+
 function cerrarMenu(){
   let menu = document.querySelector('.menu-ham');
   menu.classList.add("menu-off");
@@ -120,17 +127,21 @@ function abrirMenu(){
   menu.classList.remove("menu-off");
 }
 
+
+/* VUE */
+
 const app = new Vue({
   el:'#app',
   data:{
     datos: {},
+    section: "og"
   },
   created(){
     this.fetchData();
   },
   methods:{
     fetchData(){
-      fetch("../data/monster.json")
+      fetch("https://raw.githubusercontent.com/matiasluce/monster-web/main/data/monster.json")
       .then(response => response.json())
       .then(data =>{
         this.datos = data.monsters;

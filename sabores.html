@@ -22,12 +22,25 @@
     <div class="menu-ham menu-off"></div>
     <header id="header"></header>
     <div id="app">
+      <div class="tipos">
+        <img src="img/type1.webp" alt="" @click="section = 'og' " />
+        <img src="img/type2.webp" alt="" @click="section = 'ultra' " />
+        <img src="img/type3.webp" alt="" @click="section = 'juiced' " />
+        <img src="img/type4.webp" alt="" @click="section = 'rehab' " />
+        <img src="img/type5.webp" alt="" @click="section = 'hydrosport' " />
+        <img src="img/type6.webp" alt="" @click="section = 'espresso' " />
+      </div>
       <div class="container-vue">
-        <div class="card" v-for="monster in datos">
+        <div
+          class="card"
+          v-for="monster in datos"
+          v-if="monster.category == section"
+        >
           <p class="monster-name">{{monster.name}}</p>
           <img :src="monster.imglogo" :alt="monster.name" class="logo-img" />
           <img :src="monster.imgcan" :alt="monster.name" class="lata-img" />
           <p class="monster-desc">{{monster.desc}}</p>
+          <p class="monster-sabor">Sabor: {{monster.flavour}}</p>
         </div>
       </div>
     </div>
