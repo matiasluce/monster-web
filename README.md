@@ -20,6 +20,7 @@ archivo por lo cúal me dispuse a crear mi propio archivo json con las siguiente
 Colores principales usados:
 - Verde: #b7d237
 - Negro: #040404
+- Blanco: #fff
 
 Fuentes usadas (importadas de Google Fonts):
 - Acme
@@ -27,6 +28,10 @@ Fuentes usadas (importadas de Google Fonts):
 - Josefin Sans
 - Koulen
 - Poppins
+
+Medidas:
+Principalmente para las medidas usé px, vw, vh y algunas medidas están en auto para no limitar los elementos y que ocupen lo que sea necesario.
+En algunas etiquetas <p> usé como font size "vw" que según el viewport va incrementando de tamaño el texto también lo hace.
 
 [Media Queries - Breakpoints]
 Para implementar los distintos breakpoints usé el método "mobile first", el css principal es para el estilo de Mobile y luego 2 breakpoints los cuales corresponden a Tablet y Desktop, así resultando 3 vistas diferentes que se adaptan según el dispositivo.
@@ -37,6 +42,10 @@ Para implementar los distintos breakpoints usé el método "mobile first", el cs
 
 Animaciones usadas:
 - Transición de entrada del menú hamburguesa. keyframe: menu-anim
+- Al hacer hover en la imagen del header la lata se inclina un poco y el texto produce un brillo por detrás.
+- Los elementos tanto del header y footer cambian de color al hacerles hover.
+- Los iconos de las redes sociales del footer incrementan su tamaño sutilmente y cambian su color.
+- En la web de contacto al estar focus en un input la caja incrementa su tamaño sutilmente hasta que se quite el focus.
 
 [BOOTSTRAP]
 Usado en la página de contacto para el formulario.
@@ -52,7 +61,7 @@ Vanilla Js:
 Vue Js:
 - Para hacer el fetch del json y extraer la información.
 - Mostrar en su respectivo contenedor las distintas bebidas extraídas del json.
-
+- Para la interacción de elegir la categoría de bebida y que se muestren las mismas.
 
 
 
